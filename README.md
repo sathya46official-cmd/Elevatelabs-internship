@@ -7,5 +7,7 @@ Each task is stored in a separate folder with date.
 
 ## Tasks
 - Task1_2026-02-12 : Network Scanning with Nmap and Wireshark
-- Task2_2026-02-12 : Analyze a Phishing Email Sample
-- Task3_2026-02-12 : Perform a Basic Vulnerability Scan on Your PC
+- Task2_2026-02-13 : Analyze a Phishing Email Sample
+- Task3_2026-02-16 : Perform a Basic Vulnerability Scan on Your PC
+- Task4_2026-02-17 : Firewall Configuration using UFW
+- Task5_2026-02-19 : Network Traffic Analysis using Wireshark
