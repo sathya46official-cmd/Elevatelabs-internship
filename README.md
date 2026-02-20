@@ -11,3 +11,4 @@ Each task is stored in a separate folder with date.
 - Task3_2026-02-16 : Perform a Basic Vulnerability Scan on Your PC
 - Task4_2026-02-17 : Firewall Configuration using UFW
 - Task5_2026-02-19 : Network Traffic Analysis using Wireshark
+- Task5_2026-02-20 : Password Strength Analysis Using Python

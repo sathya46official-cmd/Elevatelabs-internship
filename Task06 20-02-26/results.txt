@@ -1,0 +1,59 @@
+Testing Password Strength Checker with sample passwords...
+
+Testing: 'abc' (Expected: Weak)
+  ✓ Classification: Weak
+  Score: 15/100
+  Length: 3
+  Entropy: 14.10 bits
+  Crack Time: 0.00 seconds
+
+Testing: 'Password123' (Expected: Strong)
+  ✓ Classification: Strong
+  Score: 65/100
+  Length: 11
+  Entropy: 65.50 bits
+  Crack Time: 1.65e+03 years
+
+Testing: 'MyP@ssw0rd!2024' (Expected: Very Strong)
+  ✓ Classification: Very Strong
+  Score: 100/100
+  Length: 15
+  Entropy: 98.32 bits
+  Crack Time: 1.25e+13 years
+
+Testing: '12345678' (Expected: Weak)
+  ✓ Classification: Weak
+  Score: 35/100
+  Length: 8
+  Entropy: 26.58 bits
+  Crack Time: 0.10 seconds
+
+Testing: 'Coffee&Tea@Morning!' (Expected: Very Strong)
+  ✓ Classification: Very Strong
+  Score: 85/100
+  Length: 19
+  Entropy: 121.45 bits
+  Crack Time: 1.15e+20 years
+
+Testing: '' (Expected: Weak)
+  ✓ Classification: Weak
+  Score: 0/100
+  Length: 0
+  Entropy: 0.00 bits
+  Crack Time: 0.00 seconds
+
+Testing: 'Pass123!' (Expected: Very Strong)
+  ✓ Classification: Very Strong
+  Score: 90/100
+  Length: 8
+  Entropy: 52.44 bits
+  Crack Time: 70.55 days
+
+Testing: 'Password' (Expected: Moderate)
+  ✓ Classification: Moderate
+  Score: 50/100
+  Length: 8
+  Entropy: 45.60 bits
+  Crack Time: 14.85 hours
+
+All tests completed!
